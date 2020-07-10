@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvore de Livros</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/header.css" rel="stylesheet" type="text/css">
+  <link href="css/menu.css" rel="stylesheet" type="text/css">
+  <link href="css/sidebar-trending.css" rel="stylesheet" type="text/css">
+  <link href="css/pag-trending.css" rel="stylesheet" type="text/css">
+  <link href="css/slide.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/gallery.theme.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="images/logo_arvore.svg" alt="Árvore de Livros">
+    <div class="content-search" width="50%">
+      <div class="content-search2">
+        <div class="content-input">
+          <input placeholder="Pesquise pelo título, autor, categoria e etc" autocomplete="off" autocorrect="off"
+            spellcheck="off" role="search" value="">
+          <img class="icon-search" src="images/search.svg" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="header-usuario">
+      <div class="usuario" role="navigation" aria-labelledby="Configurações">
+        <a href="#">
+          <img class="img-avatar" src="images/avatar_user.png" alt="Avatar">
+          <span>Team</span>
+          <img class="icon-arrow-down" src="images/icon_arrow_down.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a class="botao-menu" href="index.html">Início</a>
+    <a class="botao-menu overlay-mob" href="#">Categorias</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Banca</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Indicados</a>
+    <a class="botao-menu" href="trending-home.html">Trending</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Favoritos  </a>
+  </nav>
+
+  <div class="container">
+    <div class="center">
+      <div class="barra-titulo">
+        <h1>Leituras parecidas com <span>Stephen King</span></h1>
+      </div>
+
+
+
+      <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+          <div id="overflow">
+            <div class="inner">
+
+              <div class="slide slide_1">
+                <div class="slide-content">
+                  <img src="images/capa-livro-birdbox.png" alt="">
+                  <h2>Caixa de Pássaros</h2>
+                  <p>Quatro anos depois de as mortes terem começado, há poucos sobreviventes em Michigan. Malorie e seus dois filhos pequenos estão entre eles. O trio faz parte do grupo que tenta resistir em um mundo no qual abrir os olhos pode ser fatal.</p>
+                  <div class="tags">
+                    <span>Terror</span>
+                    <span>Fantasia</span>
+                  </div> 
+                </div><!--slide-content-->
+              </div><!--slide-->
+
+              <div class="slide slide_2">
+                <div class="slide-content">
+                  <img src="images/capa-livro-aassombracaocacasadacolina.png" alt="">
+                  <h2>A Assombração da Casa da Colina</h2>
+                  <p>Sozinha no mundo, Eleanor fica encantada ao receber uma carta do dr. Montague convidando-a para passar um tempo na Casa da Colina, um local conhecido por suas manifestações fantasmagóricas.</p>
+                  <div class="tags">
+                    <span>Terror</span>
+                    <span>Fantasia</span>
+                  </div> 
+                </div><!--slide-content-->
+              </div><!--slide-->
+
+              <div class="slide slide_3">
+                <div class="slide-content">
+                  <img src="images/capa-livro-birdbox.png" alt="">
+                  <h2>Caixa de Pássaros</h2>
+                  <p>Quatro anos depois de as mortes terem começado, há poucos sobreviventes em Michigan. Malorie e seus dois filhos pequenos estão entre eles. O trio faz parte do grupo que tenta resistir em um mundo no qual abrir os olhos pode ser fatal.</p>
+                  <div class="tags">
+                    <span>Terror</span>
+                    <span>Fantasia</span>
+                  </div> 
+                </div><!--slide-content-->
+              </div><!--slide-->
+
+              <div class="slide slide_4">
+                <div class="slide-content">
+                  <img src="images/capa-livro-aassombracaocacasadacolina.png" alt="">
+                  <h2>A Assombração da Casa da Colina</h2>
+                  <p>Sozinha no mundo, Eleanor fica encantada ao receber uma carta do dr. Montague convidando-a para passar um tempo na Casa da Colina, um local conhecido por suas manifestações fantasmagóricas.</p>
+                  <div class="tags">
+                    <span>Terror</span>
+                    <span>Fantasia</span>
+                  </div> 
+                </div><!--slide-content-->
+              </div><!--slide-->
+
+            </div><!--inner-->
+          </div><!--overflow-->
+        </div><!--slides-->
+
+        <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+       </div>
+       <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+       </div>
+
+      </div><!--slider-->
+
+    </div><!--center-->
+  </div><!--container-->
+  <footer></footer>
+</body>
+</html>

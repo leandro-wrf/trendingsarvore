@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvore de Livros</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/header.css" rel="stylesheet" type="text/css">
+  <link href="css/menu.css" rel="stylesheet" type="text/css">
+  <link href="css/sidebar-trending.css" rel="stylesheet" type="text/css">
+  <link href="css/pag-trending.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="images/logo_arvore.svg" alt="Árvore de Livros">
+    <div class="content-search" width="50%">
+      <div class="content-search2">
+        <div class="content-input">
+          <input placeholder="Pesquise pelo título, autor, categoria e etc" autocomplete="off" autocorrect="off"
+            spellcheck="off" role="search" value="">
+          <img class="icon-search" src="images/search.svg" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="header-usuario">
+      <div class="usuario" role="navigation" aria-labelledby="Configurações">
+        <a href="#">
+          <img class="img-avatar" src="images/avatar_user.png" alt="Avatar">
+          <span>Team</span>
+          <img class="icon-arrow-down" src="images/icon_arrow_down.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a class="botao-menu" href="index.html">Início</a>
+    <a class="botao-menu overlay-mob" href="#">Categorias</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Banca</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Indicados</a>
+    <a class="botao-menu" href="trending-home.html">Trending</a>
+    <a class="botao-menu" id="overlay-mob" href="#">Favoritos  </a>
+  </nav>
+
+  <div class="container">
+    <div class="center">
+
+      <div class="container-left">
+
+        <section class="container-comentario">
+          <div class="center">
+            <div class="avatar">
+              <img src="images/avatar_user_circle.png" alt="">
+            </div><!--avatar-->
+            <div class="comentario">
+              <div class="form-textarea">
+                <textarea placeholder="Conte sobre seu livro..." id="message" name="message" rows="5" cols="33"></textarea>
+              </div><!--form-textarea-->
+
+
+
+            </div><!--comentario-->
+            <div class="interacao">
+              <img src="images/photo.svg" alt="">
+              <img src="images/gif.svg" alt="">
+              <img src="images/quote.svg" alt="">
+              
+              <div class="botao-postar">
+                <button type="submit">Contar</button>
+              </div>
+            </div><!--interacao-->         
+          </div><!--center-->
+        </section><!--container-comentario-->
+        
+  
+        <section class="container-comentario margin-left">
+          <div class="center">
+            <div class="avatar">
+              <img src="images/avatar_user2.png" alt="">
+            </div><!--avatar-->
+            <div class="comentario">
+              <p>“Não sabemos quanto tempo nos resta, não podemos desperdiçá-lo lamentando coisas que não podemos mudar” - Stephen King</p>
+            </div><!--comentario-->
+            <div class="interacao">
+              <div class="icon-like icon">
+                <i class="icon-heart"></i>
+              </div>
+              <div class="icon-comentario icon">
+                <i class="icon-comment"></i>
+              </div>
+              <div class="form">
+                <input placeholder="Comentário..." value="">
+              </div>
+            </div><!--interacao-->         
+          </div><!--center-->
+        </section><!--container-comentario-->
+
+        <section class="container-comentario margin-left">
+          <div class="center">
+            <div class="avatar">
+              <img src="images/avatar_user4.png" alt="">
+            </div><!--avatar-->
+            <div class="comentario">
+              <p>Percy Aprendendo a ser um Semi Deus com a Bianca.</p>
+              <img src="images/post-img.png" alt="">
+            </div><!--comentario-->
+            
+            <div class="interacao">
+              <div class="icon-like icon">
+                <i class="icon-heart"></i>
+              </div>
+              <div class="icon-comentario icon">
+                <i class="icon-comment"></i>
+              </div>
+              <div class="form">
+                <input placeholder="Comentário..." value="">
+                <i class="icon-submit"></i>
+              </div>
+            </div><!--interacao-->         
+          </div><!--center-->
+        </section><!--container-comentario-->
+  
+      </div> <!--container-left-->
+  
+      <div class="container-right">
+        <div class="content-input-trendings">
+          <div class="input-trendings">
+            <input placeholder="Busque um Trending" autocomplete="off" autocorrect="off" spellcheck="off" role="search" value="">
+            <img class="icon-search" src="images/search.svg" alt="">
+          </div>        
+        </div>
+  
+        <div class="sidebar-trendings">
+          <div class="titulo">
+            Trending Topics
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">Stephen King</a>   
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">Nesta Archeron</a> 
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">A Seleção</a> 
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">Netuno</a>
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">A revolução dos bichos</a>
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+            <div class="titulo-trending">
+              <a href="trending.html">Percy Jackson</a>
+            </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+              <div class="titulo-trending">
+                <a href="trending.html">Machado de Assis</a>
+              </div>
+          </div>
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+              <div class="titulo-trending">
+                <a href="trending.html">Bianca Di Angelo</a>
+              </div>
+          </div>
+  
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+              <div class="titulo-trending">
+                <a href="trending.html">Daenerys Targaryen</a>
+              </div>
+            
+          </div>
+  
+          <div class="content-trending">
+            <div class="subtitulo">
+              Assunto no Momento
+            </div>
+              <div class="titulo-trending">
+                <a href="trending.html">Capitão América</a>
+              </div>
+          </div>
+          
+        </div>  
+      </div><!--container-right-->
+
+      <div class="clear"></div>
+    </div><!--center-->    
+  </div><!--container-->
+  <footer>
+
+  </footer>
+
+</body>
+</html>

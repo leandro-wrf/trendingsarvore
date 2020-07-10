@@ -1,0 +1,249 @@
+.barra-titulo {
+  margin-bottom: 10px;
+}
+
+.container-comentario{
+  display: inline-block;
+  max-width: 900px;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #F9F7F7;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.avatar{
+  float: left;
+  margin-top: 15px;
+}
+
+.avatar img {
+  cursor: pointer;
+  width: 50px;
+  min-width: 30px;
+  height: 50px;
+  min-height: 30px;
+  border-radius: 50%;
+  
+  border: solid 2px rgba(0,0,0,0.5);
+}
+
+.comentario{
+  width: 100%;
+  padding: 15px 60px 15px 3px;
+  float: right;
+  margin-right: -60px;
+}
+.comentario p {
+  font-size: 30px;
+  text-align: justify;
+}
+.comentario img {
+  margin: 10px 0;
+  border-radius: 15px;
+  border: solid 2px rgba(0,0,0,0.5);
+}
+
+
+.interacao {
+  float: left;
+  width: 100%;
+}
+
+.interacao img{
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+.interacao img:hover{
+  opacity: .4;
+}
+
+.icon{
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  width: 50px;
+}
+
+.icon i:hover{
+  color: #45cad0;
+}
+
+.form {
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid #DFE5E9;
+  background-color: #ffffff;
+  height: 46px;
+  float: right;
+}
+
+.form input{
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  height: 46px;
+  background-color: transparent;
+  padding: 9px 20px 10px;
+}
+
+.form input:focus{
+  outline: none;
+}
+
+.form-textarea {
+  width: 100%;
+  min-width: 700px;
+  border-radius: 5px;
+  
+  height: 100px;
+  float: right;
+}
+
+.margin-left{
+  margin-left: 20px;
+}
+
+.form-textarea textarea{
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  height: auto;
+  background-color: transparent;
+  padding: 9px 20px 10px;
+  letter-spacing: 1px;
+  resize: none;
+}
+
+.form-textarea textarea:focus{
+  outline: none;
+}
+
+.botao-postar {
+  float: right;
+  margin-top: 10px;
+}
+.botao-postar button{
+  cursor: pointer;
+  padding: 10px 20px;
+  background: linear-gradient(to left,#45cad0,#45d0c1);
+  color: white;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.botao-postar button:hover{
+  background: #3cb0b6;
+}
+
+@media screen and (max-width: 768px) {
+  .container-comentario{
+    display: inline-block;
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #F9F7F7;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+  .avatar{
+    float: left;
+    margin-top: 5px;
+  }
+  
+  .avatar img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+
+  .form-textarea {
+    margin-top: -10px;
+    min-width: 100px;
+    max-width: 100%;
+    border-radius: 5px;
+    height: 100px;
+    float: right;
+  }
+
+  .form-textarea textarea{
+    padding: 9px 20px 10px;
+  }
+  
+  .form-textarea textarea:focus{
+    outline: dashed;
+  }
+
+  .comentario{
+    width: 100%;
+    padding: 15px 60px 15px 3px;
+    float: right;
+    margin-right: -60px;
+  }
+  .comentario p {
+    font-size: 18px;
+  }
+  .comentario img {
+    margin: 10px 0;
+    border-radius: 15px;
+    border: solid 2px rgba(0,0,0,0.5);
+    width: 100%;
+  }
+
+  .interacao img{
+    width: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .botao-postar {
+    float: right;
+    margin-top: 10px;
+  }
+  .botao-postar button{
+    padding: 5px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .icon{
+    margin-left: 10px;
+
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .icon i{
+    position: relative;
+    top: 10px;
+  }
+  
+  .form {
+    width: 70%;
+    max-width: 280px;
+    border-radius: 30px;
+    height: 36px;
+    float: right;
+  }
+  
+  .form input{
+    font-size: 14px;
+    height: 36px;
+  }
+  
+  
+}
+
